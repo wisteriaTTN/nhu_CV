@@ -1,0 +1,10 @@
+<h1>This is a todo aa2</h1>
+<div class="todo-form">
+	<input type="text"/>
+	<button>Add</button>
+</div>
+<br/>
+<div>{{items.length}} remaining out of {{items.length}} tasks </div>
+<ul>
+	<li *ngFor="let item of items">{{item}}</li>
+</ul>

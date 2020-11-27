@@ -1,0 +1,9 @@
+function assfasg() {
+	var current = 0;
+	this.next = function() { current++}
+}
+
+this.current
+this.next
+
+aasd.PRO.NEXT();
